@@ -41,3 +41,14 @@ requests.get('http://localhost:4423/is_abundant/123').json()
 requests.get('http://localhost:4423/is_deficient/123').json()
 requests.post('http://localhost:4423/type_value_list', json=[10, 1000]).json()
 ```
+
+## Ejercicio 2
+
+Para instalar las dependencias y arrancar el server http:
+
+```bash
+npm install
+npm start
+```
+
+La web se ejecutará en http://localhost:8080

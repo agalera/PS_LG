@@ -1,0 +1,17 @@
+{
+  "name": "ejercicio2",
+  "version": "1.0.0",
+  "description": "LG",
+  "main": "index.html",
+  "scripts": {
+    "start": "http-server",
+    "postinstall": "bower install"
+  },
+  "author": "Alberto Galera",
+  "dependencies": {
+    "http-server": "^0.11.1"
+  },
+  "devDependencies": {
+    "bower": "^1.8.4"
+  }
+}
